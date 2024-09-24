@@ -1,0 +1,110 @@
+.flight { 
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+    font-size: 17px;
+}
+
+.flight__cities { 
+    padding: 10px;
+    border-bottom: 1px solid #d7d6d6;
+}
+
+.flight__dep-city { 
+    display: inline-block;
+    position: relative;
+    margin-right: 25px;
+}
+
+.flight__dep-city::after { 
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-image: url('../images/arrow30.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.flight__uid { 
+    margin-right: 5px;
+    color: var(--blue);
+}
+
+.flight__time-wrapper { 
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.flight__duration { 
+    position: relative;
+}
+
+.flight__duration::before { 
+    content: "";
+    position: absolute;
+    left: -20px;
+    top: 2px;
+    width: 17px;
+    height: 17px;
+    background-image: url("../images/clock.svg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.flight__date { 
+    color: var(--blue);
+    font-size: 14px;
+}
+
+.flight__time--departure { 
+    margin-right: 3px;
+}
+
+.flight__date--arrival { 
+    margin-right: 3px;
+}
+
+.flight__connection-wrapper { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.flight__connection { 
+    position: relative;
+    display: inline-block;
+    color: var(--orange);
+}
+
+.flight__connection::before { 
+    content: '';
+    position: absolute;
+    top: 55%;
+    left: -230%;
+    width: 225%;
+    height: 1px;
+    background-color: var(--grey);
+}
+
+.flight__connection::after { 
+    content: '';
+    position: absolute;
+    top: 55%;
+    left: 105%;
+    width: 225%;
+    height: 1px;
+    background-color: var(--grey);
+}
+
+.flight__operating-company { 
+    margin: 0;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    font-size: 15px;
+}
+

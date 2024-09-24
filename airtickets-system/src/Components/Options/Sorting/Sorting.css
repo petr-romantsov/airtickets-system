@@ -1,0 +1,18 @@
+.sorting { 
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    margin-bottom: 20px;
+}
+
+.sorting__label { 
+    display: flex;
+    align-items: center;
+    color: var(--grey);
+}
+
+.sorting__title { 
+    margin: 0;
+    margin-bottom: 15px;
+    font-size: 14px;
+}

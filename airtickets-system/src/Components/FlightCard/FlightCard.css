@@ -1,0 +1,6 @@
+
+.flight-card__separator { 
+    height: 2px;
+    width: 100%;
+    background-color: var(--blue);
+}

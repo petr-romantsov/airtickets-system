@@ -1,0 +1,19 @@
+.filtration { 
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    margin-bottom: 20px;
+}
+
+.filtration__title { 
+    margin: 0;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.filtration__label { 
+    display: flex;
+    align-items: center;
+    max-width: fit-content;
+    color: var(--grey);
+}

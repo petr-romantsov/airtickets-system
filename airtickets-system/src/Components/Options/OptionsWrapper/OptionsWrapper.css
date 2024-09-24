@@ -1,0 +1,7 @@
+.options-wrapper { 
+    display: flex;
+    flex-direction: column;
+    padding: 5px 10px;
+    min-width: 30%;
+    font-size: 14px;
+}

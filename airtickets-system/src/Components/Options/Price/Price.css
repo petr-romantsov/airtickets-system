@@ -1,0 +1,20 @@
+.price-filter {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    margin-bottom: 20px;
+}
+
+.price-filter__label { 
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    max-width: fit-content;
+    color: var(--grey);
+}
+
+.price-filter__title { 
+    margin: 0;
+    margin-bottom: 15px;
+    font-size: 14px;
+}

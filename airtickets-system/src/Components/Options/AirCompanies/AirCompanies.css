@@ -1,0 +1,24 @@
+.aircompanies { 
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.aircompanies__title { 
+    margin: 0;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.aircompanies__label { 
+    color: var(--grey);
+    font-size: 14px;
+}
+
+.aircompanies__airline { 
+    display: inline-block;
+    width: 130px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
